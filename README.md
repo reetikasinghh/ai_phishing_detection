@@ -1,77 +1,22 @@
-<<<<<<< HEAD
-# Welcome to your Lovable project
+AI Phishing Detection System
+This project detects phishing emails using AI and machine learning. It classifies emails as Phishing or Legitimate to help improve cybersecurity awareness.
+Features: Detect phishing emails automatically, supports CSV datasets for training and testing, shows accuracy metrics and predictions, easy-to-use for experimentation and demonstration.
 
-## Project info
+Technologies Used: Python, Pandas, NumPy, Scikit-learn, TensorFlow/Keras (if using deep learning), Git & GitHub.
 
-**URL**: https://lovable.dev/projects/80b33246-949c-4688-9ee5-55cefe8b333f
+Dataset: Contains emails labeled as phishing or legitimate. File used: compressed_data.csv.gz. Source: Kaggle / collected email samples.
 
-## How can I edit this code?
+Installation: Clone the repository git clone https://github.com/reetikasinghh/ai_phishing_detection.git. Navigate to the project directory cd ai_phishing_detection. Create and activate a virtual environment python3 -m venv venv and source venv/bin/activate (Mac/Linux) or venv\Scripts\activate (Windows). Install required packages with pip install -r requirements.txt.
 
-There are several ways of editing your application.
+Usage: Train the AI model using python train_model.py. Test new emails using python predict_email.py. The system will classify emails as Phishing or Legitimate.
 
-**Use Lovable**
+Project Structure: compressed_data.csv.gz (Dataset), train_model.py (Training script), predict_email.py (Prediction script), README.md (Documentation), requirements.txt (Dependencies), utils/ (Helper functions).
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/80b33246-949c-4688-9ee5-55cefe8b333f) and start prompting.
+Results: Accuracy: XX% (replace with your model’s result). Confusion matrix and metrics like precision, recall, and F1-score are included.
 
-Changes made via Lovable will be committed automatically to this repo.
+Future Work: Implement deep learning models (LSTM, CNN, BERT) for better accuracy, deploy as a web application for real-time detection, integrate with email clients for automatic phishing detection.
 
-**Use your preferred IDE**
+References: Kaggle datasets for phishing emails, Scikit-learn documentation, TensorFlow/Keras documentation.
+Author: Reetika Singh – GitHub: reetikasinghh, College Project: AI & Cybersecurity.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/80b33246-949c-4688-9ee5-55cefe8b333f) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
-=======
-# ai_phishing_detection
->>>>>>> d8904d23fbf6010614fbb6b2fb318671c1036df8
